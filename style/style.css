@@ -78,14 +78,14 @@ body {
 
 .card:hover img {
     transform: scale(1.05);
-    box-shadow: 0 0 .3rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 .3rem rgba(77, 77, 77, 0.2);
 }
 
 .card img {
     display: block;
     width: 16rem;
     height: 16rem;
-    box-shadow: 0 0 .3rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 .3rem rgba(77, 77, 77, 0.1);
     border-radius: .25rem;
     object-fit: cover;
     transition: all .3s ease-in-out;
@@ -105,5 +105,5 @@ body {
     font-weight: 700;
     text-align: center;
     max-width: 30;
-    
+
 }
